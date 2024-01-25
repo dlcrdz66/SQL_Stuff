@@ -1,10 +1,10 @@
 CREATE TABLE Employees (
     ID INT,
-    LastName VARCHAR(255),
-    FirstName VARCHAR(255),
-    Position VARCHAR(255),
+    LastName CHAR(255),
+    FirstName CHAR(255),
+    Position CHAR(255),
     Age INT,
-    Gender VARCHAR(255)
+    Gender CHAR(255)
 );
 
 INSERT INTO Employees (ID, LastName, FirstName, Position, Age, Gender)
@@ -58,7 +58,7 @@ VALUES
 
 
 
-CREATE TABLE EmployeeSalary (ID int, LastName CHAR(255), FirstName CHAR(255), Salary int)
+CREATE TABLE EmployeeSalary (ID INT, LastName CHAR(255), FirstName CHAR(255), Salary INT)
 
 INSERT INTO EmployeeSalary VALUES
     (1, 'Smith', 'John', '25000'),
